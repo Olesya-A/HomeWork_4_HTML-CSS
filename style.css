@@ -10,8 +10,8 @@ body{
 }
 
 .header{
-    padding-top: 51px;
-    padding-bottom: 95px;
+    padding-top: 40px;
+    padding-bottom: 84px;
     display:flex;
     justify-content: space-between;
 }
@@ -30,6 +30,7 @@ body{
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
+    padding: 10px;
 }
 
 .header-menu{
@@ -43,14 +44,74 @@ body{
 .flex {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .title{
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     margin-bottom: 17px;
 }
 
+.text{
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 37px;
+}
+
+.button-link1{
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 1rem 2rem;
+    background-color: #F25822;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-right: 72px;
+    border: 2px solid transparent;
+    display: block;
+}
+
+.button-link1.button-link1:hover {
+    background-color: #fff;
+    color: #F25822;
+    border: 2px solid #F25822;
+}
+
+.button-link2{
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border: 2px solid transparent;
+    display: block;
+}
+
 .top_buttons{
-    margin-top: 37px;
+    display: flex;
+}
+
+.top-info, .top-pic{
+    width: 45%;
+}
+
+.top-content{
+    margin-bottom: 259px;
 }
 
 .top_logo{
