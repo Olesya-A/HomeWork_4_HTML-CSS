@@ -22,12 +22,27 @@ body{
     width: 1170px;
 }
 
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-pic{
+    display: flex;
+    align-items: center;
+}
+
+.header-logo{
+    margin-right: 14px;
+}
+
 .header-link1{
     color: #F25822;
     font-family: Open Sans;
     font-size: 14px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: normal;
     text-decoration: none;
     padding: 10px;
@@ -52,12 +67,6 @@ body{
     align-items: center;
 }
 
-.flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .title{
     color: #000;
     font-family: Open Sans;
@@ -73,7 +82,7 @@ body{
     font-family: Open Sans;
     font-size: 20px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     line-height: normal;
     margin-bottom: 37px;
 }
@@ -94,7 +103,7 @@ body{
     display: block;
 }
 
-.button-link1.button-link1:hover {
+.button-link1:hover {
     background-color: #fff;
     color: #F25822;
     border: 2px solid #F25822;
@@ -113,7 +122,7 @@ body{
     display: block;
 }
 
-.top_buttons{
+.top-buttons{
     display: flex;
 }
 
