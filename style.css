@@ -7,6 +7,7 @@
 
 body{
     background: #FFF;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .header{
@@ -21,10 +22,20 @@ body{
     width: 1170px;
 }
 
+.header-link1{
+    color: #F25822;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    padding: 10px;
+}
 
-.header-link{
+.header-link2{
     color: #000;
-    font-family: Gilroy-Medium;
+    font-family: Open Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -49,36 +60,36 @@ body{
 
 .title{
     color: #000;
-    font-family: Gilroy-Bold;
+    font-family: Open Sans;
     font-size: 60px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: normal;
     margin-bottom: 17px;
 }
 
 .text{
     color: #888;
-    font-family: Gilroy-Medium;
+    font-family: Open Sans;
     font-size: 20px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: normal;
     margin-bottom: 37px;
 }
 
 .button-link1{
     color: #FFF;
-    font-family: Gilroy-Bold;
+    font-family: Open Sans;
     font-size: 15px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: normal;
     padding: 1rem 2rem;
     background-color: #F25822;
     text-decoration: none;
     border-radius: 50px;
-    margin-right: 72px;
+    margin-right: 45px;
     border: 2px solid transparent;
     display: block;
 }
@@ -91,10 +102,10 @@ body{
 
 .button-link2{
     color: #AAA;
-    font-family: Gilroy-Bold;
+    font-family: Open Sans;
     font-size: 15px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: normal;
     padding: 1rem 2rem;
     text-decoration: none;
@@ -107,13 +118,9 @@ body{
 }
 
 .top-info, .top-pic{
-    width: 45%;
+    width: 47%;
 }
 
 .top-content{
     margin-bottom: 259px;
-}
-
-.top_logo{
-    padding-top: 259px;
 }
